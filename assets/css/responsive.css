@@ -1,0 +1,309 @@
+@media screen and (max-width:992px){
+    body{
+        background-color: purple;
+    }
+    .marge{
+        align-items: center;
+    }
+
+
+    .titre{
+        margin-left: -20px;
+        width: 15%;
+    }
+
+
+    h1{
+        font-size: 25px;        
+    }
+    .sous-titre{
+        font-size: 18px;
+    }
+
+
+    .search-class{
+        width: 100%;
+    }
+
+
+    .filtres-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .titre-filtre{
+        width: 100%;
+    }
+    .filtres{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 3%;  
+        margin: 3% 5% 0% 5%;
+    }
+    .filtre{
+        margin-bottom: 20px;
+        width: 32%;   
+     }
+    .button-filtre{
+        width: 100%;
+    }
+
+
+    .teste{
+        flex-direction: column-reverse;
+    }
+
+
+    .contener-hebergements{
+        width: 100%;
+    }
+    .hebergement-card{
+        width: 47%;
+    }
+    .contener-cards{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .afficher-button{
+        margin: 0% 0% 5% 6%;
+    }
+
+
+
+    .contener-populaire{
+        width: 100%;
+    }
+
+
+    .contener-cards-activite{
+        flex-wrap: wrap;
+    }
+    .contener-sub-cards{
+        width: 47%;
+        min-height: 0%;
+        margin-bottom: 20px;
+    }
+    .activite-card{
+        background-color: white;
+        height: 350px;
+        width: 47%;
+        margin-bottom: 20px;
+    }
+
+    .big{
+        height: 85%;
+    }
+    .activite-sub-card{
+        background-color: white;
+    }
+    .medium{
+        width: 100%;
+        height: 100px;
+    }
+    .small{
+        width: 100%;
+        height: 100px;  
+    }
+    .ultra-small{
+        width: 100%;
+        height: 100px;
+    }
+
+
+
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width:767px){
+    body{
+        background-color: red;
+    }
+    header{
+        display: flex;
+        flex-direction: column   
+    }
+
+
+    .marge{
+        align-items: center;
+        padding: 0%;
+        margin: 0% 0% 0% -2%;
+    }
+
+    header nav{
+        width: 100%;
+    }
+    .titre{
+        display: flex;
+        padding: 30px;
+        width: 30%;
+    }
+    .onglet{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .onglet li{
+        width: 50%;
+        margin: 0%;
+        padding-left: 0%;
+        text-align: center;
+    }
+    .button-onglet{
+        font-size: 20px;
+        /* margin: 0px 80px 0px 0px; */
+    }
+
+
+    h1{
+        margin: 5% 10% 2% 20%;
+        }
+    .sous-titre{
+        margin: 0% 10% 0% 23%;
+        font-size: 20px;
+    }
+
+
+    .search-class{
+        justify-content: center;
+        padding: 5%;
+        width: auto;
+    }
+    .button-search{
+        width: 20%;
+    }
+
+    
+    .filtres-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .titre-filtre{
+        margin: -27% 3% 0% 0%;
+    }
+    .filtres{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 3%;  
+        margin: 3% 5% 0% 5%;
+    }
+    .filtre{
+        margin: 2% -10% 0% 16%;
+    }
+
+
+    .teste{
+        flex-direction: column-reverse;
+    }
+
+
+    .infobar{
+        transform: scale(1.2, 1.2);
+        margin: 5% auto 2% auto;
+    }
+    
+
+    .contener-populaire{
+        border-radius: 0%;
+    }
+    .popular-title{
+        font-size: 20px;
+    }
+    .contener-populaire-cards{
+        margin-bottom: -10%;
+    }
+    .popular-card-content{
+        font-size: 20px;
+    }
+
+
+    .contener-hebergements{
+        background-color: #ffff;
+        flex-direction: row;
+        border-radius: 0%;
+    }
+    .contener-hebergements h2{
+        margin: 5% 0% 0% 5%;
+    }
+    .contener-cards{
+        background-color: #ffff;
+        flex-direction: column;
+        align-content: center;
+    }
+    .hebergement-card{
+        width: 100%;
+        margin: 0% 0% 5% 1%;
+    }
+    .afficher-button{
+        visibility: hidden;
+    }
+
+
+    .contener-cards-activite{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: white;
+        align-items: center;
+    }
+    .activite-titre{
+        padding: 0% 75% 0% 5%;
+    }
+    .activite-card{
+        width: 90%;
+        height: 250px;
+    }
+    .contener-sub-cards{
+        width: 90%;
+        align-items: center;
+        min-height: 0px;
+    }  
+    .activite-sub-card{
+        width: 100%;
+     }
+    .big{
+        width: 100%;
+        height: 200px;
+    }
+    .ultra-small {
+        margin-bottom: 1%;
+        height: 200px;
+    }
+    .small, .medium{
+        height: 200px;
+    }
+    
+
+
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+
+
+
+
+
+
+
+
+}
+
