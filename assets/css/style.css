@@ -1,17 +1,18 @@
-h1,h2,h3,p,a{
+h1,h2,h3,p,a, span{
     font-family: "Raleway",sans-serif;
 }
 
 .marge{
-    padding: 40px;
-}
+    padding: 0px 40px 40px 40px;}
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 0%;
 }
 .titre{
     width: 10%;
+    margin-left: -35px;
 }
 
 
@@ -22,15 +23,23 @@ header{
     list-style: none;
 }
 .onglet li{
-    margin-left: 20px;
+    border-top: 2px solid white;
+    padding-top: 2%;
+    text-align: center;
+    width: 140px;
+    padding-top: 12%;
 }
 .onglet a{
     color: black;
     text-decoration: none;
 }
+.onglet li:hover{
+    border-top: 2px solid #0065fc;
+}
 .button-onglet:hover{
     color: #0065FC;
 }
+
 
 
 
@@ -75,6 +84,9 @@ header{
     border: none;
     font-family: "Raleway",sans-serif;
 }
+.button-search i{
+    display: none;
+}
 
 
 .filtres-card{
@@ -86,6 +98,7 @@ header{
 .filtres{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 2%;
     width: 100%;
     margin-top: 39px;
@@ -110,14 +123,17 @@ header{
     background-color: white; 
     color: black;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 .button-filtre span{
-    margin-right: auto;
-    margin-left: auto; 
+    display: flex;
+    align-items: center;
 }
 .button-filtre:hover{
     background-color: #dfecff;
+}
+.filtre{
+    margin-top: 20px;
 }
 
 
@@ -130,7 +146,6 @@ header{
     align-items: center;
     justify-content: space-between;
     border: 1px
-    
 }
 .infobar i{
     color: #0065fc;
@@ -144,7 +159,7 @@ header{
 }
 
 
-.teste{
+.contener-general{
     display: flex;
     justify-content: space-between;
 }
@@ -154,6 +169,7 @@ header{
     background-color: #f2f2f2;
     border-radius: 20px;
     margin-top: 39px;
+    margin-bottom: 3%;
 }
 .hebergement-title{
     margin-top: 40px;
@@ -180,7 +196,7 @@ header{
     -webkit-box-shadow: 5px 5px 12px 2px rgba(0,0,0,0.21); 
     box-shadow: 5px 5px 12px 2px rgba(0,0,0,0.21);
 }
-.test-card-center{
+.contener-card-center{
     padding: 0px 20px 20px 10px;
 }
 .hebergement-card img{
@@ -196,7 +212,7 @@ header{
     color: #f2f2f2;
 }
 .afficher-button h3{
-    margin: 0% 0% 0% 3%;
+    margin: 3% 0% 0% 4%;
     color: black;
 }
 .afficher-button{
@@ -210,6 +226,7 @@ header{
     background-color: #f2f2f2;
     border-radius: 20px;
     margin-top: 39px;
+    margin-bottom: 3%;
 }
 .popular-title{
     display: flex;
@@ -244,12 +261,18 @@ header{
 }
 .popular-card img{
     width: 40%;
-    height: 180px;
+    max-width: 40%;
+    min-width: 40%;
+    height: 200px;
+    min-height: 200px;
     object-fit: cover;
     border-radius: 10px 0px 0px 10px;
 }
 .popular-card-content{
     margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -317,6 +340,9 @@ footer{
     background-color: #f2f2f2;
     padding: 30px 0px 0px 0px;
     gap: 400px;
+}
+footer h3{
+    padding-left: 40px;
 }
 footer ul{
     list-style: none;
